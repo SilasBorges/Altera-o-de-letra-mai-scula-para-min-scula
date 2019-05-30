@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+    int letra1;
+    char letra, n1;
+
+    printf("Digite uma letra em maiuscula:\n");
+    scanf("%c", &letra);
+
+    letra1 = letra + 32;
+    n1 = (char) letra1;
+
+    printf("A letra em minuscula e:\n%c",letra1);
+
+    return 0;
+    }
